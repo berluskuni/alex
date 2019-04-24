@@ -1,1 +1,2 @@
-web: gunicorn alex.wsgi --log-file - && npm run start
+web: gunicorn alex.wsgi --log-file
+web: npm run start
