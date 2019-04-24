@@ -12,3 +12,4 @@ dist
 
 # pycharm files
 .idea
+env
