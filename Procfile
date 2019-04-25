@@ -1,2 +1,1 @@
-web: gunicorn alex.wsgi --log-file
-web: npm run start
+web: bin/start-nginx gunicorn alex.wsgi --log-file npm run start
